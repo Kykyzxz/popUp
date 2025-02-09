@@ -1,0 +1,39 @@
+*::before, *::after {
+    box-sizing: border-box;
+}
+
+* {
+    margin: 0;
+    padding: 0
+}
+body {
+    display: flex;
+    flex-direction: column;
+    font-family: 'Roboto', sans-serif;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f1f1f1;
+}
+
+.container-popup {
+    display: none;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color:rgba(180, 28, 180, 0.5);
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 100px;
+    height: 40px;
+}
+
+.btn-close{
+    border-color: darkviolet;
+    width: 100px;
+    height: 30px;
+    border-radius: 5px;
+    background-color: rgba(255, 130, 255, 0.5)
+
+}
